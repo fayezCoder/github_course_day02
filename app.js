@@ -1,5 +1,4 @@
-!DOCTYPEhtml>
-<Array></Array>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
+<script></script>, type ="text/javascript">  
+function msg(){  
+ alert("Hello Javatpoint");  
+}  

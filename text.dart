@@ -1,4 +1,10 @@
-   Text(
-          "Hello I am",
-          style: TextStyle(color: Colors.white, fontSize: 20),
-        )
+ Widget _appBarButton(String title, VoidCallback onTap) {
+    // ignore: deprecated_member_use
+    return FlatButton(
+      onPressed: onTap,
+      child: Text(
+        title,
+        style: const TextStyle(color: Colors.white),
+      ),
+    );
+  }
