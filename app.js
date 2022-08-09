@@ -1,7 +1,7 @@
 <script>
 
 </script>
- type ="text/javascript" 
+ type ="text/javascript">  
 function msg(){  
  alert("Hello Javatpoint");  
 } 
