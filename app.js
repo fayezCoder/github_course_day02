@@ -1,4 +1,7 @@
-<script></script>, type ="text/javascript">  
+<script>
+
+</script>
+ type ="text/javascript">  
 function msg(){  
  alert("Hello Javatpoint");  
-}  
+} 
