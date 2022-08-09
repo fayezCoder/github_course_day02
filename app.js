@@ -1,3 +1,5 @@
-const test = ():string  => {
-    return "fayez"
-};
+!DOCTYPEhtml>
+<Array></Array>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
