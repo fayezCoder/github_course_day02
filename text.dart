@@ -1,17 +1,11 @@
-import 'package:flutter/material.dart';
-
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Text("hi"),
-      ),
-    );
-  }
+  runApp(MaterialApp(
+    home: Scaffold(
+      bottomNavigationBar: BottomNavigationBar(backgroundColor: Colors.white,
+        items: [BottomNavigationBarItem(icon: Icon(Icons.home),label: "home"),
+         BottomNavigationBarItem(icon: Icon(Icons.access_alarms),label: "alarm"),
+         BottomNavigationBarItem(icon: Icon(Icons.home),label: "home")],
+      ),appBar: AppBar(title: Text("Main Page"),backgroundColor: Colors.black,),
+    ),
+  ));
 }
